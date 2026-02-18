@@ -1,4 +1,4 @@
--- 0. We are all unique!
+-- Create table users with unique email
 CREATE TABLE IF NOT EXISTS users (
   id INT NOT NULL AUTO_INCREMENT,
   email VARCHAR(255) NOT NULL,
